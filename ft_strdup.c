@@ -27,3 +27,19 @@ char	*ft_strdup(char *str)
 	ret[i] = 0;
 	return (ret);
 }
+
+char	*ft_strldup(char *str, size_t l)
+{
+	size_t	i;
+	char	*ret;
+
+	ret = malloc(l + 1);
+	ret[l] = 0;
+	i = 0;
+	while (i < l)
+	{
+		ret[i] = str[i];
+		i++;
+	}
+	return (ret);
+}

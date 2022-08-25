@@ -85,16 +85,16 @@ char	*test_strjoin(char **str, int n)
 	return (out);
 }
 
-int main()
-{
-	char *s, *s1;
+// int main()
+// {
+// 	char *s, *s1;
 
-	s = "";
-	s1 = "";
-	s = test_strjoin((char *[3]){"ab cd", "ef", "   h"}, 3);
-	// s = ft_strjoin(s, s1);
-	// printf("strdup : %s\n", strdup(""));
-	// printf("ft_strdup : %s\n", ft_strdup(""));
-	printf("ft_strjoin : %s\n", s);
-	// printf("strjoin : %s", strjoin("", ""));
-}
+// 	s = "";
+// 	s1 = "";
+// 	s = test_strjoin((char *[3]){"ab cd", "ef", "   h"}, 3);
+// 	// s = ft_strjoin(s, s1);
+// 	// printf("strdup : %s\n", strdup(""));
+// 	// printf("ft_strdup : %s\n", ft_strdup(""));
+// 	printf("ft_strjoin : %s\n", s);
+// 	// printf("strjoin : %s", strjoin("", ""));
+// }
